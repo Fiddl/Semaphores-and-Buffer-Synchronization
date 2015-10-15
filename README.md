@@ -1,4 +1,4 @@
-# Semaphores-and-Buffer-Synchronization
+# Semaphores and Buffer Synchronization
 
 ## Description
 This project exlpores the use of semaphores to solve the bounded buffer problem utilizing pthreads in C, and
@@ -24,7 +24,16 @@ make will compile the source code into the three executables: rw, transfer1, and
 
 ## Usage
 ```
-./rw <input file path> <output file path>
-./transfer1 <input file path> <output file path> <fill thread sleep time> <drain thread sleep time>
-./transfer2 <input file path> <output file path> <fill thread sleep time> <drain thread sleep time>
+./rw  <input file path>
+      <output file path>
+      
+./transfer1 <input file path>
+            <output file path>
+            <fill thread sleep time>
+            <drain thread sleep time>
+            
+./transfer2 <input file path>
+            <output file path>
+            <fill thread sleep time>
+            <drain thread sleep time>
 ```
